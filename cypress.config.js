@@ -1,6 +1,7 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
+  projectId: 'w5jvpy',
   e2e: {
     // baseUrl, etc
     supportFile: false,
