@@ -1,0 +1,26 @@
+{
+  "name": "cypress-pull-request-title",
+  "version": "1.0.0",
+  "description": "Use the GitHub pull request title as Cypress Dashboard run name",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-pull-request-title.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-pull-request-title/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-pull-request-title#readme",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "prettier": "^2.8.8"
+  }
+}
