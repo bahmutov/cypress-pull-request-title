@@ -1,4 +1,4 @@
-# cypress-pull-request-title
+# cypress-pull-request-title [![cypress-pull-request-title](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/count/w5jvpy&style=flat&logo=cypress)](https://cloud.cypress.io/projects/w5jvpy/runs)
 
 > Use the GitHub pull request title as Cypress Dashboard run name
 
