@@ -9,7 +9,8 @@ jobs:
 
       - name: Print event
         run: |
-          echo '${{ toJson(github.event) }}'
+          echo off
+          echo '${{ toJson(github.sha) }}'
           echo '${{ toJson(github.event.pull_request) }}'
           echo '${{ toJson(github.event.pull_request.head) }}'
 
