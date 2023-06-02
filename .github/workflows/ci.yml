@@ -25,7 +25,8 @@ jobs:
           # pass the Cypress Cloud record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           # set custom commit message based on PR title
-          COMMIT_INFO_MESSAGE: Merge ${{ github.event.pull_request.head.sha }} into ${{ github.event.pull_request.base.sha }}
-          COMMIT_INFO_SHA: ${{ github.sha }}
+          # COMMIT_INFO_MESSAGE: Merge ${{ github.event.pull_request.head.sha }} into ${{ github.event.pull_request.base.sha }}
+          COMMIT_INFO_MESSAGE: My pull request ${{ github.event.number }}
+          COMMIT_INFO_SHA: ${{ github.event.pull_request.head.sha }}
           # debug commit info information
           DEBUG: commit-info
