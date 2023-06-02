@@ -6,6 +6,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Print event
+        run: |
+          echo '${{ toJson(github.event) }}'
+          echo '${{ toJson(github.event.pull_request) }}'
+          echo '${{ toJson(github.event.pull_request.head) }}'
+
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       # https://github.com/cypress-io/github-action
