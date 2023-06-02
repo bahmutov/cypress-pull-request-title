@@ -2,6 +2,8 @@
 
 > Use the GitHub pull request title as Cypress Dashboard run name
 
+Read the blog post [Use GitHub Pull Request Title To Name Cypress Dashboard Run](https://glebbahmutov.com/blog/pull-request-title/)
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2023
